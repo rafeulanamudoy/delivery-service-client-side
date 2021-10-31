@@ -1,0 +1,34 @@
+.jointeam {
+  background-image: url("../../images//JoinTeam/jointeam4.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+}
+.join-text-style {
+  margin-top: 70px;
+  font-size: 80px;
+}
+.team-text-style {
+  font-size: 130px;
+  color: rgb(243, 98, 62);
+}
+.head-text-style {
+  font-size: 50px;
+  color: rgb(195, 188, 191);
+}
+
+@media only screen and (max-width: 600px) {
+  .join-text-style {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
+  .team-text-style {
+    font-size: 30px;
+    color: rgb(243, 98, 62);
+  }
+  .head-text-style {
+    font-size: 15px;
+    color: rgb(195, 188, 191);
+  }
+}
