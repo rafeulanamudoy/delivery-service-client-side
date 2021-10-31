@@ -1,0 +1,40 @@
+[
+    {
+      "key": 1,
+      "name": "Jaber",
+      "desc": "we will deliver any food from any resturent and safely return to customer in time.",
+      "img": "https://image.freepik.com/free-photo/delivery-african-american-man-yellow-polo-shirt-cap-holding-cardboard-boxes-with-friendly-smile-standing-isolated-blue_141793-18676.jpg"
+
+    },
+    {
+      "key": 2,
+      "name": "Kabir",
+      "desc": "we will deliver pure nestle  water to customer in time.i will satsfy my customer gurenteed ",
+      "img": "https://image.freepik.com/free-photo/delivery-concept-portrait-happy-african-american-delivery-man-red-cloth-holding-box-package-isolated-grey-studio-background-copy-space_1258-1261.jpg"
+
+    },
+    {
+      "key": 3,
+      "name": "nahid",
+
+      "desc": "we will delive 3 and 5 gallon water to customer as soon as possible",
+      "img": "https://image.freepik.com/free-psd/free-non-stop-delivery-man-pointing-box_23-2148462371.jpg"
+
+    },
+    {
+      "key": 4,
+      "name": "jewel",
+      "desc": "we will deilver  bottled water equipment in time.",
+      "img": "https://image.freepik.com/free-psd/delivery-man-holding-box-his-shoulder_23-2148669590.jpg"
+
+    },
+
+    {
+      "key": 5,
+      "name": "sourov ",
+      "desc": "we will deliver any Home clock and watch from our partner company to customer in  given time",
+      "img": "https://image.freepik.com/free-psd/fast-delivery-man-red-costume_23-2148462367.jpg"
+
+    }
+
+  ]

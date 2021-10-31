@@ -2,6 +2,8 @@ import React from "react";
 import useAuth from "../../../hooks/useAuth";
 import Banner from "../../home/Banner/Banner";
 import Services from "../../home/Services/Services";
+import DeliveryBoy from "../DeliveryBoy/DeliveryBoy";
+import Partners from "../Partners/Partners";
 
 const Home = () => {
   const { loading } = useAuth();
@@ -17,6 +19,8 @@ const Home = () => {
     <div>
       <Banner></Banner>
       <Services></Services>
+      <DeliveryBoy></DeliveryBoy>
+      <Partners></Partners>
     </div>
   );
 };

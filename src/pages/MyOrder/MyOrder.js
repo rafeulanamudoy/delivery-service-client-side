@@ -43,38 +43,42 @@ const MyOrder = () => {
 
   return (
     <div>
-      <h1>myOrder</h1>
-      <table className=" table table-dark table-striped ">
-        <thead>
-          <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Email</th>
-            <th scope="col">Service</th>
-            <th scope="col">Address</th>
-            <th scope="col">PhoneNumber</th>
-            <th scope="col">Delelte Option</th>
-          </tr>
-        </thead>
-        {myOrder?.map((order) => (
-          <tbody>
+      <h1 className="text-success fw-bold w-25 border border-primary d-block mx-auto mt-3 mb-3  bg-dark">
+        My Order
+      </h1>
+      <div className="table-responsive-sm">
+        <table className=" table table-dark table-striped ">
+          <thead>
             <tr>
-              <td>{order?.name}</td>
-              <td>{order?.email}</td>
-              <td>{order?.service_name}</td>
-              <td>{order?.address}</td>
-              <td>{order?.phonenumber}</td>
-              <td>
-                <button
-                  onClick={() => handleOrderDelteId(order?._id)}
-                  className="btn btn-danger"
-                >
-                  Delete
-                </button>
-              </td>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Service</th>
+              <th scope="col">Address</th>
+              <th scope="col">PhoneNumber</th>
+              <th scope="col">Delelte Option</th>
             </tr>
-          </tbody>
-        ))}
-      </table>
+          </thead>
+          {myOrder?.map((order) => (
+            <tbody>
+              <tr>
+                <td>{order?.name}</td>
+                <td>{order?.email}</td>
+                <td>{order?.service_name}</td>
+                <td>{order?.address}</td>
+                <td>{order?.phonenumber}</td>
+                <td>
+                  <button
+                    onClick={() => handleOrderDelteId(order?._id)}
+                    className="btn btn-danger"
+                  >
+                    Delete
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          ))}
+        </table>
+      </div>
     </div>
   );
 };

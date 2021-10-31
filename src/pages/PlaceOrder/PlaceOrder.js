@@ -8,7 +8,7 @@ import "./PlaceOrder.css";
 const PlaceOrder = () => {
   const { servicename } = useParams();
   const { register, handleSubmit, reset } = useForm();
-  const value = "udoy";
+  // const value = "udoy";
   const { user } = useAuth();
 
   const onSubmit = (data) => {
@@ -24,7 +24,8 @@ const PlaceOrder = () => {
       });
   };
   return (
-    <div>
+    <div className="bg-warning">
+      <h1 className="text-success fw-bold ">Place Your Order</h1>
       <form onSubmit={handleSubmit(onSubmit)} className="form-style">
         <input {...register("name")} value={user.displayName || ""} readOnly />
         <input
