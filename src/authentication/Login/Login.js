@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import { useHistory, useLocation } from "react-router";
 import useAuth from "../../hooks/useAuth";
+import "./Login.css";
 
 const Login = () => {
   const { signInUsingGoogle, setUser, setLoading, setError, error } = useAuth();
@@ -23,8 +24,11 @@ const Login = () => {
     // ...
   };
   return (
-    <div>
-      <Button onClick={handleGoogle}>Google</Button>
+    <div className="login-container">
+      <h1 className="fw-bold text-info ">Please Sign In</h1>
+      <Button className="btn-warning" onClick={handleGoogle}>
+        Google
+      </Button>
       <h2>{error}</h2>
     </div>
   );
