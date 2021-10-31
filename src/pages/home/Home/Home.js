@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 import useAuth from "../../../hooks/useAuth";
 import Banner from "../../home/Banner/Banner";
 import Services from "../../home/Services/Services";

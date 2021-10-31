@@ -46,7 +46,7 @@ const MyOrder = () => {
       <h1 className="text-success fw-bold w-25 border border-primary d-block mx-auto mt-3 mb-3  bg-dark">
         My Order
       </h1>
-      <div className="table-responsive-sm">
+      <div className="table-responsive-sm table-container">
         <table className=" table table-dark table-striped ">
           <thead>
             <tr>
@@ -69,7 +69,7 @@ const MyOrder = () => {
                 <td>
                   <button
                     onClick={() => handleOrderDelteId(order?._id)}
-                    className="btn btn-danger"
+                    className="btn btn-danger btn-size"
                   >
                     Delete
                   </button>
