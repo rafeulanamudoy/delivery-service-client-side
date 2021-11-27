@@ -9,7 +9,7 @@ Project Link [ Delivery Service](https://courier-sytem.web.app).
 - in manage order section user can show all the order placed by ohter users.
 - in my order section user only see his/her order.user  can cancel the order if he/she want.
 -  user can add service to our system
-- user can see other user order in myorder section
+- user can see his/her order in myorder section
 - Google Authetication has been implemented using firebase.
 -	Crud operation ,Context api , React hook form and axios has been implemented.
 -	Fully Responsibe  for Desktop and Mobile.
