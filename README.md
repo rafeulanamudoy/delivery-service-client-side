@@ -4,7 +4,7 @@ Project Link [ Delivery Service](https://courier-sytem.web.app).
 
 ## our site will help:
 
-- When user wnat to order any service if they are not login to the system then it will take the user to login system.
+- When user want to order any service if they are not login to the system then it will take the user to login system.
 - after login to the system using google it will redirect the user where he first want to go.
 - in manage order section user can show all the order placed by the user.
 - in my order section user only see his/her order.user  can cancel the order if he/she want.
